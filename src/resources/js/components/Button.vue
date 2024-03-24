@@ -1,9 +1,11 @@
 <script setup>
-
+const props = defineProps({
+    link: String,
+    name: String,
+})
 </script>
-
 <template>
-  $END$
+    <v-btn variant="outlined" :to="link">{{ name }}</v-btn>
 </template>
 
 <style scoped>
