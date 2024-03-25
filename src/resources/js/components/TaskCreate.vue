@@ -1,5 +1,8 @@
 <script setup>
-import Button from './Button.vue'
+import { ref } from 'vue';
+import router from '../router';
+import Button from './Button.vue';
+
 </script>
 
 <template>
